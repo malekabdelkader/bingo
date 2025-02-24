@@ -1,50 +1,87 @@
-# React + TypeScript + Vite
+## 🎉 Bingo Meeting Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun **Bingo game** inspired by common phrases heard in virtual meetings! Play along during your next online call and see how many classic phrases you can spot.  
 
-Currently, two official plugins are available:
+🚀 **Live Demo**: [Click here to play](https://meetings-bingo.netlify.app) (Replace `#` with your Netlify URL)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+✅ **25 Bingo phrases** commonly heard in online meetings  
+✅ **Randomized board** on each refresh  
+✅ **Clickable cells** with a realistic stamp effect  
+✅ **Win detection** with an exciting celebration effect 🎊  
+✅ **Responsive & lightweight** for a smooth experience  
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🛠 Tech Stack
+
+- **React** (with Vite) ⚡️
+- **TypeScript** for type safety  
+- **Tailwind CSS** for styling  
+- **Confetti Effect** for celebrations 🎉  
+- **Netlify** for deployment 🌍  
+
+---
+
+## 🚀 Getting Started  
+
+### 1️⃣ Clone the Repo  
+```sh
+git clone https://github.com/yourusername/bingo-meeting.git
+cd bingo-meeting
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### 2️⃣ Install Dependencies  
+```sh
+npm install
 ```
+
+### 3️⃣ Start the Development Server  
+```sh
+npm run dev
+```
+
+### 4️⃣ Build for Production  
+```sh
+npm run build
+```
+
+---
+
+## 🎨 UI Preview  
+
+![Bingo Board Preview](https://hendrickscountyparks.org/event/trail-bingo/)
+
+---
+
+## 🏆 How to Play?  
+
+1️⃣ The **center cell** is always selected.  
+2️⃣ Click a cell when you hear the phrase in a meeting.  
+3️⃣ Get **five in a row** (horizontal, vertical, or diagonal) to win!  
+4️⃣ Celebrate with **confetti** and a winner modal 🎊  
+
+---
+
+## 🌍 Deployment  
+
+This game is deployed on **Netlify**. To deploy your own version:  
+
+1. Push your project to **GitHub**  
+2. Connect your repo to **Netlify**  
+3. **Deploy** with one click!  
+
+---
+
+## 🤝 Contributing  
+
+Feel free to fork this project, create a branch, and submit a **Pull Request**!  
+
+---
+
+## 📜 License  
+
+This project is **open-source** under the **MIT License**.
