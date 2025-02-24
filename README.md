@@ -1,8 +1,8 @@
-## 🎉 Bingo Meeting Game
+## 🎉 Bingo Game
 
 A fun **Bingo game** inspired by common phrases heard in virtual meetings! Play along during your next online call and see how many classic phrases you can spot.  
 
-🚀 **Live Demo**: [Click here to play](https://meetings-bingo.netlify.app) 
+🚀 **Live Demo**: [Click here to play](https://meetings-bingo.netlify.app/)
 
 ---
 
@@ -13,15 +13,6 @@ A fun **Bingo game** inspired by common phrases heard in virtual meetings! Play 
 ✅ **Clickable cells** with a realistic stamp effect  
 ✅ **Win detection** with an exciting celebration effect 🎊  
 ✅ **Responsive & lightweight** for a smooth experience  
-
----
-## 🔧 Customization
-
-The size of the Bingo grid is variable and can be modified from the Constants file. Along with the grid size, the list of phrases is also configurable.
-
-✅ **Default grid size:**  5x5 (25 cells)
-✅ **Default phrases:** 25 common virtual meeting phrases
-✅ **Fully customizable:** You can override the default values to fit your needs, whether for different subjects like Developer Mistakes Bingo or any other customized Bingo theme! 
 
 ---
 
@@ -39,8 +30,8 @@ The size of the Bingo grid is variable and can be modified from the Constants fi
 
 ### 1️⃣ Clone the Repo  
 ```sh
-git clone https://github.com/malekabdelkader/bingo.git
-cd bingo
+git clone https://github.com/yourusername/bingo-meeting.git
+cd bingo-meeting
 ```
 
 ### 2️⃣ Install Dependencies  
@@ -69,6 +60,16 @@ npm run build
 
 ---
 
+## 🔧 Customization
+
+The size of the **Bingo grid** is variable and can be modified from the **Constants page**. Along with the grid size, the list of phrases is also configurable.  
+
+- **Default grid size**: `5x5` (25 cells)  
+- **Default phrases**: 25 common virtual meeting phrases  
+- **Fully customizable**: You can override the default values to fit your needs, whether for different subjects like **Developer Mistakes Bingo** or any other customized Bingo theme!  
+
+---
+
 ## 🌍 Deployment  
 
 This game is deployed on **Netlify**. To deploy your own version:  
@@ -88,3 +89,4 @@ Feel free to fork this project, create a branch, and submit a **Pull Request**!
 ## 📜 License  
 
 This project is **open-source** under the **MIT License**.
+
