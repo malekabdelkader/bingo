@@ -62,7 +62,7 @@ npm run build
 
 ## 🔧 Customization
 
-The size of the **Bingo grid** is variable and can be modified from the **Constants page**. Along with the grid size, the list of phrases is also configurable.  
+The size of the **Bingo grid** is variable and can be modified from **src/constants/bingoPhrases**. Along with the grid size, the list of phrases is also configurable.  
 
 - **Default grid size**: `5x5` (25 cells)  
 - **Default phrases**: 25 common virtual meeting phrases  
