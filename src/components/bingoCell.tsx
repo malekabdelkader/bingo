@@ -1,5 +1,5 @@
-import { useState } from "react";
-
+import { useRef, useState } from "react";
+import stampImage from "../assets/stamp.png";
 export default function BingoCell({
   rowIndex,
   colIndex,
@@ -13,11 +13,12 @@ export default function BingoCell({
     y: number;
   } | null>(null);
 
+  const rotation = useRef(Math.floor(Math.random() * 9) * 40); 
+
   const handleClick = (e: React.MouseEvent<HTMLDivElement>) => {
     const rect = e.currentTarget.getBoundingClientRect();
     const offsetX = e.clientX - rect.left;
     const offsetY = e.clientY - rect.top;
-
     setStampPosition({ x: offsetX, y: offsetY });
     handleCellClick(rowIndex, colIndex);
   };
@@ -31,19 +32,17 @@ export default function BingoCell({
   `}
       onClick={handleClick}
     >
-      <p className="text-xs">
-        {phrase}
-      </p>
+      <p className="text-xs">{phrase}</p>
 
       {cell && stampPosition && (
-        <div
-          className="absolute bg-rose-300 opacity-70 rounded-full z-30"
+        <img
+          src={stampImage}
+          alt="marker stamp image"
+          className="absolute opacity-70 rounded-full z-30 w-[110%] h-[110%]  transform -translate-x-1/2 -translate-y-1/2"
           style={{
-            width: "110%",
-            height: "110%",
             top: `${stampPosition.y}px`,
             left: `${stampPosition.x}px`,
-            transform: "translate(-50%, -50%)",
+            transform: `rotate(${rotation.current}deg)`,
           }}
         />
       )}
