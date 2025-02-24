@@ -15,14 +15,13 @@ A fun **Bingo game** inspired by common phrases heard in virtual meetings! Play 
 ✅ **Responsive & lightweight** for a smooth experience  
 
 ---
-
 ## 🔧 Customization
 
-**The size of the Bingo grid is variable and can be modified from the Constants file. Along with the grid size, the list of phrases is also configurable.**
+The size of the Bingo grid is variable and can be modified from the Constants file. Along with the grid size, the list of phrases is also configurable.
 
- ** Default grid size: 5x5 (25 cells)
- ** Default phrases: 25 common virtual meeting phrases
- ** Fully customizable: You can override the default values to fit your needs, whether for different subjects like Developer Mistakes Bingo or any other customized Bingo theme!
+✅ **Default grid size:**  5x5 (25 cells)
+✅ **Default phrases:** 25 common virtual meeting phrases
+✅ **Fully customizable:** You can override the default values to fit your needs, whether for different subjects like Developer Mistakes Bingo or any other customized Bingo theme! 
 
 ---
 
