@@ -2,7 +2,7 @@
 
 A fun **Bingo game** inspired by common phrases heard in virtual meetings! Play along during your next online call and see how many classic phrases you can spot.  
 
-🚀 **Live Demo**: [Click here to play](https://meetings-bingo.netlify.app) (Replace `#` with your Netlify URL)
+🚀 **Live Demo**: [Click here to play](https://meetings-bingo.netlify.app) 
 
 ---
 
@@ -30,8 +30,8 @@ A fun **Bingo game** inspired by common phrases heard in virtual meetings! Play 
 
 ### 1️⃣ Clone the Repo  
 ```sh
-git clone https://github.com/yourusername/bingo-meeting.git
-cd bingo-meeting
+git clone https://github.com/malekabdelkader/bingo.git
+cd bingo
 ```
 
 ### 2️⃣ Install Dependencies  
@@ -48,12 +48,6 @@ npm run dev
 ```sh
 npm run build
 ```
-
----
-
-## 🎨 UI Preview  
-
-![Bingo Board Preview](https://hendrickscountyparks.org/event/trail-bingo/)
 
 ---
 
