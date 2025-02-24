@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Instructions from "./components/instructions";
 import { bingStateType, cellsType } from "./types/bingoState";
 import BingoGrid from "./components/bingoGrid";
@@ -11,12 +11,7 @@ export default function App() {
   const [cells, setCells] = useState<cellsType>(INIT_BINGO_CELLS());
   const [bingoState, setBingoState] = useState<bingStateType>({ ...INIT_BINGO_STATE });
   const [bingoResult, setBingoResult] = useState<string>();
-  const [shuffledPhrases, setShuffledPhrases] = useState<string[]>([]);
-
-  useEffect(() => {
-    // Shuffle phrases when component mounts
-    setShuffledPhrases(shuffleArray(PHRASES)); 
-  }, []);
+  const [shuffledPhrases, setShuffledPhrases] = useState<string[]>(shuffleArray(PHRASES));
 
   const handleClickReplay = () => {
     setBingoResult(undefined);
